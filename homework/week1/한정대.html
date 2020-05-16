@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금을 사야해</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap" rel="stylesheet">
+    <style>
+        .wrap {
+            margin: auto;
+            margin-top: 75px;
+            border-radius: 20px;
+            border-color: black;
+            border-style: solid;
+
+            background-color: beige;
+
+            width: 500px;
+            height: 850px;
+            font-family: 'Nanum Myeongjo', serif;
+        }
+
+        .lead {
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+
+        .form-horizontal {
+            background-color: wheat;
+            border-radius: 20px;
+            width: 70%;
+            margin: auto;
+        }
+
+        .order {
+            text-align: center;
+        }
+
+        .btn btn-primary {
+            margin: 300px;
+        }
+        /* .button1{
+            text-align: center;
+        } */
+        label, input{
+            vertical-align: middle;
+        }
+
+    </style>
+
+    <script>
+        function hey() {
+            alert('부자가 되셨군요. 축하드립니다.');
+        }
+    </script>
+</head>
+
+<body>
+    <div class='wrap'>
+        <div class='lead'>
+            <div class='img'>
+
+                <img
+                    src='https://post-phinf.pstatic.net/MjAxNzAyMjFfMTE3/MDAxNDg3NjY1ODk3OTQ2.-s-1koJucQeitSLAvBymwUoK1v_g6zH_cxI5HyjrI5cg.VXVp2pYqjSHqYc-3cnFMojNEsawAqx3sxua_txBCe0wg.JPEG/image_8680688171487665894433.jpg?type=w1200'>
+            </div>
+
+            <div class='lead'>
+                <h4>골드바 10돈(37.5g)!</br>더 늦기 전에 미리 사두세요</h4>
+                <h6>불확실성의 시대, 든든한 안전자산! 금을 사세요.</br> 자기 전에 두 번씩 외고 따라해보세요. "금을 사자"</h6>
+                <h6><a href="https://finance.naver.com/marketindex/goldDetail.nhn">왜 금인가? 금 시세 보기</a></h6>
+            </div>
+        </div>
+
+        <div>
+
+            </br>
+            <!-- form-control -->
+            <form class="form-horizontal">
+                <h5 class="order">주문하기</h5>
+                <div class="form-group">
+                    <label for="exampleInputName2">주문자 정보: </label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="홍길동">
+                </div>
+                <label for="exampleInputName2">수량: </label>
+                <select class="form-control" placeholder="1">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                </select>
+                <div class="form-group">
+                    <label for="exampleInputName2">주소: </label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="경기도 엘도라도">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputName2">전화번호: </label>
+                    <input type="text" class="form-control" id="exampleInputName2" placeholder="010-1234-5678">
+                </div>
+                <!-- add div -->
+                <div class="button1">
+                    <button onclick="hey()" type="submit" class="btn btn-primary">주문하기</button>
+                </div>
+            </form>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>

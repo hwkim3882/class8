@@ -1,0 +1,23 @@
+/* 구글 웹폰트 적용 */
+* {
+    font-family: 'Gamja Flower', cursive;
+}
+.wrap{
+    margin: 10px auto ;
+    width:300px;
+}
+.mytitle {
+    background-image: url('https://www.ancient-origins.net/sites/default/files/field/image/Agesilaus-II-cover.jpg');
+    background-position: center;
+    background-size: cover;
+
+    width: 300px;
+    height: 200px;
+
+    text-align: center;
+    color:white;
+
+    border-radius: 10px;
+    padding-top:40px;
+    margin-bottom: 100px;
+}
